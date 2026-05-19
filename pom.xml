@@ -7,6 +7,8 @@
   
   <properties>
     <xstream.version>1.4.5</xstream.version>
+    <jquery.version>3.7.0</jquery.version>
+    <webjars-locator-core.version>0.59</webjars-locator-core.version>
   </properties>
   
   <dependencies>
@@ -19,6 +21,16 @@
         <groupId>com.thoughtworks.xstream</groupId>
         <artifactId>xstream</artifactId>
         <version>${xstream.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>org.webjars</groupId>
+        <artifactId>jquery</artifactId>
+        <version>${jquery.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>org.webjars</groupId>
+        <artifactId>webjars-locator-core</artifactId>
+        <version>${webjars-locator-core.version}</version>
     </dependency>
   </dependencies>
 </project>
